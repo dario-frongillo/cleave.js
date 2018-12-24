@@ -67,8 +67,8 @@ NumeralFormatter.prototype = {
             partInteger = parts[0];
             partDecimal = owner.numeralDecimalMark + parts[1].slice(0, owner.numeralDecimalScale);
         } else {
-            if (numeralDecimalScale > 0) {
-                partDecimal = owner.numeralDecimalMark + '0'.repeat(numeralDecimalScale);
+            if (owner.numeralDecimalScale != null && owner.numeralDecimalScale > 0) {
+                partDecimal = owner.numeralDecimalMark + '0'.repeat(owner.numeralDecimalScale);
             }
         }
 

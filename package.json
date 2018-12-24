@@ -10,16 +10,16 @@
     "form",
     "input"
   ],
-  "version": "1.4.7l",
+  "version": "1.4.7-2",
   "files": [
     "src",
     "dist",
     "react.js"
   ],
   "author": {
-    "name": "Max Huang",
-    "url": "http://github.com/nosir",
-    "email": "risonhuang@gmail.com"
+    "name": "Dario Frongillo",
+    "url": "https://github.com/dario-frongillo/cleave.js",
+    "email": "d.frongillO@list-group.com"
   },
   "license": "Apache-2.0",
   "bugs": "https://github.com/nosir/cleave.js/issues",
