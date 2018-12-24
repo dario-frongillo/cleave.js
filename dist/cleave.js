@@ -581,7 +581,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	            parts = value.split(owner.numeralDecimalMark);
 	            partInteger = parts[0];
 	            partDecimal = owner.numeralDecimalMark + parts[1].slice(0, owner.numeralDecimalScale);
-	        }
+	        } else {
+                if (owner.numeralDecimalScale != null && owner.numeralDecimalScale > 0) {
+                    partDecimal = owner.numeralDecimalMark + '0'.repeat(owner.numeralDecimalScale);
+                }
+            }
 
 	        if (owner.numeralIntegerScale > 0) {
 	          partInteger = partInteger.slice(0, owner.numeralIntegerScale + (value.slice(0, 1) === '-' ? 1 : 0));
