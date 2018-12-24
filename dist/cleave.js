@@ -1180,7 +1180,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      // If cursor was at the end of value, just place it back.
 	      // Because new value could contain additional chars.
 	      if (oldValue.length === prevPos) {
-	          // return newValue.length;
+	          return newValue.length;
 	      }
 
 	      return prevPos + this.getPositionOffset(prevPos, oldValue, newValue, delimiter ,delimiters);
