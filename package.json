@@ -1,6 +1,6 @@
 {
-  "name": "cleave.js",
-  "title": "cleave.js",
+  "name": "cleave_list.js",
+  "title": "cleave_list.js",
   "description": "JavaScript library for formatting input text content when you are typing",
   "keywords": [
     "cleave",
@@ -10,7 +10,7 @@
     "form",
     "input"
   ],
-  "version": "1.4.7",
+  "version": "1.4.7l",
   "files": [
     "src",
     "dist",
